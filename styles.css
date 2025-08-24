@@ -1,0 +1,26 @@
+/* Minor theme touches to match the spirit of your original */
+
+.font-script {
+  font-family: 'Sacramento', cursive;
+  font-size: 2rem;
+}
+
+.bg-teal {
+  background-color: rgb(77, 192, 154);
+}
+
+.navbar-brand {
+  font-family: 'Sacramento', cursive;
+  font-size: 2rem;
+  color: rgb(216, 150, 7) !important;
+}
+
+.navbar {
+  background: rgba(231, 229, 229, 0.5);
+}
+
+/* Optional card border hint from original design */
+.card {
+  border: 2px solid rgba(83, 78, 58, 0.6);
+  border-radius: 0.5rem;
+}

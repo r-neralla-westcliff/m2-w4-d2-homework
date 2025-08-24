@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Food Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet" />
+
+
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div id="app">
+
+        <site-header></site-header>
+
+        <div class="container my-4">
+            <div class="row">
+
+                <aside class="col-md-4 mb-4">
+                    <div class="p-3 bg-teal rounded text-white">
+                        <h5 class="mb-3 font-script">Food Blog</h5>
+                        <div class="text-center">
+
+                            <img :src="heroSrc" alt="White Chicken Chili" class="img-fluid rounded shadow-sm">
+                        </div>
+                    </div>
+                </aside>
+
+
+                <main class="col-md-8">
+                    <h2 class="text-uppercase text-success mb-3">Comments</h2>
+
+
+                    <article class="card mb-3">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <div><span class="font-weight-bold">Brianna</span></div>
+                                <div class="text-muted small">February 18, 2021 @ 3:30 pm</div>
+                            </div>
+                            <p class="mb-0">
+                                Was amazing! My Walmart didn’t have coriander in stock and didn’t have ground cumin. I
+                                used serrano instead of jalapeño. It was just like my favorite tortilla soup from BJs. I
+                                am sending this recipe to my family. I want everyone to try it!
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="card mb-3">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <div><span class="font-weight-bold">LINH</span></div>
+                                <div class="text-muted small">February 15, 2021 @ 9:46 am</div>
+                            </div>
+                            <p class="mb-0">
+                                I just made this soup today and it’s so tasty! didn’t have corn at home but still turned
+                                out very good. It’s a winner! I made beef chili for my parents; but since my dad has
+                                gout he can’t eat beef; this white chicken chili is perfect for him. Thank you Lisa!
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="card mb-3">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <div><span class="font-weight-bold">CATHERINE LEONARDO</span></div>
+                                <div class="text-muted small">February 13, 2021 @ 12:58 pm</div>
+                            </div>
+                            <p class="mb-0">
+                                I LOVE this White Chicken Chili! You are right, it is satiating meal—delicious with
+                                toasted bread. Refreshingly different taste than any chicken chili I’ve made in the
+                                past. I made it exactly as written and added some chopped zucchini, carrots, and celery.
+                                Instead of shredding the chicken, I chopped it into small pieces. It freezes very well.
+                                Will be an all-time favorite, for sure.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="card mb-5">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <div><span class="font-weight-bold">KALI</span></div>
+                                <div class="text-muted small">February 13, 2021 @ 11:31 am</div>
+                            </div>
+                            <p class="mb-0">
+                                This recipe is dynamite! My partner usually won’t eat beans but he finished the whole
+                                pot (darn was hoping to have some for leftovers haha). This is crowd-pleaser that I am
+                                going to add to my regular recipe rotation. Thanks so much, Lisa!
+                            </p>
+                        </div>
+                    </article>
+                </main>
+            </div>
+        </div>
+
+        <footer class="text-center py-3 text-muted small">
+            &copy; Copyright FOOD BLOG
+        </footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
